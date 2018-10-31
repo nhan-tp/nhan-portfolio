@@ -1,0 +1,65 @@
+html, body {
+    background-color: #ebf2eb ; /*#F3E6DD;*/
+    margin:0;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+body {
+    position: relative;
+    z-index: 0;
+    font-family: Open Sans, sans-serif;
+    font-weight: 300;
+    letter-spacing: 1.2px;
+    overflow-y: hidden;
+}
+
+p {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 16px;
+}
+
+.card {
+    box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
+    transition: 0.2s ease;
+    max-width: 400px;
+    border-radius: 5px;
+}
+.card:hover {
+    opacity: .7;
+    box-shadow: 0px 0px 5px 0.1px #ccc;
+}
+
+.card-small {
+    box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
+    transition: 0.2s ease;
+    max-width: 300px;
+    border-radius: 5px;
+}
+.card-small:hover {
+    opacity: .7;
+    box-shadow: 0px 0px 5px 0.1px #ccc;
+}
+
+img {
+    border-radius: 5px 5px 0 0;
+}
+
+.container {
+    padding: 2px 16px;
+    background-color:white;
+    border-style: dashed;
+}
+
+.center {
+    margin: auto;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    margin: auto;
+}
